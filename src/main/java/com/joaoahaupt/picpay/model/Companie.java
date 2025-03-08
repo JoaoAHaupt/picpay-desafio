@@ -1,18 +1,18 @@
 package com.joaoahaupt.picpay.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import org.springframework.security.core.GrantedAuthority;
-
-import java.util.Collection;
-import java.util.List;
+import lombok.Builder;
+import lombok.experimental.SuperBuilder;
 
 @Entity
-@Table(name = "companies")
-@Data
-public class Companie extends BaseUser {
+@PrimaryKeyJoinColumn(name = "id")
+@SuperBuilder
+public class Companie extends User {
 
     @Column(nullable = false, length = 14, unique = true)
     private String cnpj;
 
+    public Companie() {
+
+    }
 }

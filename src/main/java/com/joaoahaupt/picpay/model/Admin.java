@@ -1,16 +1,13 @@
 package com.joaoahaupt.picpay.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.PrimaryKeyJoinColumn;
 import jakarta.persistence.Table;
-import lombok.Data;
-import org.springframework.security.core.GrantedAuthority;
-
-import java.util.Collection;
-import java.util.List;
-
+/*
 @Entity
-@Table(name = "admin")
+@PrimaryKeyJoinColumn
 public class Admin extends BaseUser{
 
 
 }
+*/
