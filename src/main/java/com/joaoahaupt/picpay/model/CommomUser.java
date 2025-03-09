@@ -8,12 +8,12 @@ import lombok.experimental.SuperBuilder;
 @Entity
 @PrimaryKeyJoinColumn(name = "id")
 @SuperBuilder
-public class ComumUser extends User {
+public class CommomUser extends User {
 
     @Column(nullable = false, unique = true, length = 11)
     private String cpf;
 
-    public ComumUser() {
+    public CommomUser() {
 
     }
 }

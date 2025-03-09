@@ -2,7 +2,7 @@
 
 # Desafio técnico PicPay API Rest
 
-<img src="https://ucarecdn.com/4339cd0e-2bd0-4a40-a8a0-1209b75212e4/" height="200px" alt="picpay image">
+<img src="https://ucarecdn.com/4339cd0e-2bd0-4a40-a8a0-1209b75212e4/" height="150px" alt="picpay image">
 
 
 <div>

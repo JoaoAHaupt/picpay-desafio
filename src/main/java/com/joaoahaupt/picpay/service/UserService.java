@@ -5,6 +5,7 @@ import com.joaoahaupt.picpay.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -17,7 +18,9 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-
+    public List<User> returnAllUsers(){
+        return userRepository.findAll();
+    }
 
     public User findUserById(Long id) throws Exception {
         Optional<User> userOptional = Optional.ofNullable(userRepository.findById(id)
