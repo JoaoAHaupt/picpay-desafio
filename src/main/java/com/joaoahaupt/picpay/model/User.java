@@ -11,8 +11,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @SuperBuilder
 public abstract class User  {
 
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
